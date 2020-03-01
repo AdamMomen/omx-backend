@@ -1,5 +1,5 @@
 require("dotenv").config();
-let express = require("express"),
+const express = require("express"),
   path = require("path"),
   mongoose = require("mongoose"),
   cors = require("cors"),
@@ -18,7 +18,8 @@ var graphqlHTTP = require("express-graphql");
 mongoose.Promise = global.Promise;
 mongoose
   .connect(process.env.DB_LINK, {
-    useNewUrlParser: true,
+      useCreateIndex: true,
+  useNewUrlParser: true
     useUnifiedTopology: true
   })
   .then(
