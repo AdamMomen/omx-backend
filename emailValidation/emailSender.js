@@ -19,11 +19,6 @@ function sendEmail(to, username, code) {
   };
   return send(msg);
 }
-// sendEmail().then(({
-//     result
-// }) => {
-//     console.log('message sent', result)
-// })
 module.exports = {
   sendEmail
 };

@@ -52,7 +52,9 @@ app.use("/api/images", parser.single("file"), (req, res) => {
 
 app.use(passport.initialize());
 app.use(passport.session());
-
+app.use("/", (req, res) => {
+  res.send("This is OMX-backend");
+});
 //Server Starter
 const server = app.listen(process.env.PORT, () => {
   console.log(`
