@@ -30,7 +30,7 @@ var root = {
 // Connecting mongoDB
 mongoose.Promise = global.Promise;
 mongoose
-  .connect(process.env.DB, {
+  .connect(process.env.DB_LINK, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
