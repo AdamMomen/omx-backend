@@ -7,4 +7,9 @@
     "bookmarks.showCommandsInContextMenu": true,
     "bookmarks.useWorkaroundForFormatters": true,
     "bookmarks.sideBar.expanded": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#073607",
+        "titleBar.activeBackground": "#094B09",
+        "titleBar.activeForeground": "#F0FDF0"
+    },
 }
