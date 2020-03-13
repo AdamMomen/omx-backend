@@ -9,11 +9,9 @@ Built with :
 - Express, Node js
 - MongoDB, Cloud Mlab
 - Angular 8
-- typeScript
 - CircleCi
 - Jasmin Karma Angular / Jest Node
-- Mobile Development Progressive Web Apps
-- GraphQL
+- MDB
 
 ## Development
 
